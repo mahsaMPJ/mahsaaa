@@ -1,97 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Caprasimo&family=Oswald:wght@200&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,800;1,600&family=Ysabeau+Infant:ital,wght@1,300;1,500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'poppins' , sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
 }
 :root {
-    --text-color: #000000;
-    --main-color:#83b735;
+  --text-color: #000000;
+  --main-color: #83b735;
 }
-section{
-    padding: 50px 10%;
+section {
+  padding: 50px 10%;
 }
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 18px 100px;
-    background: #edecea;
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 100px;
+  background: #edecea;
 }
-.logo{
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--text-color);
+.logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color);
 }
-.logo span{
-   color: var(--main-color);
+.logo span {
+  color: var(--main-color);
 }
-.navbar{
-    position: relative;
-    display: flex;
+.navbar {
+  position: relative;
+  display: flex;
 }
 .navbar a {
-    font-size: 1rem;
-    padding: 10px 20px;
-    font-weight: 600;
-    color: var(--text-color);
+  font-size: 1rem;
+  padding: 10px 20px;
+  font-weight: 600;
+  color: var(--text-color);
 }
-.navbar a:hover{
-    color: var(--main-color);
+.navbar a:hover {
+  color: var(--main-color);
 }
-#menu-icon{
+#menu-icon {
   font-size: 2rem;
   cursor: pointer;
   display: none;
 }
 .home {
-    width: 100%;
-    min-height: 100vh;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
 }
-.home-text h1{
-    font-size: 2.7rem;
+.home-text h1 {
+  font-size: 2.7rem;
 }
-.home-text p{
-    font-size: 0.9rem;
-    margin: 0.4rem 0 1.8rem;
+.home-text p {
+  font-size: 0.9rem;
+  margin: 0.4rem 0 1.8rem;
 }
-.home-text span{
-    color: var(--main-color);
+.home-text span {
+  color: var(--main-color);
 }
-.btn{
-    padding: 10px 14px;
-    background: var(--main-color);
-    color: #fff;
-    border-radius: 0.3rem;
-    font-size: 14px;
+.shop_btn {
+  padding: 10px 14px;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 0.3rem;
+  font-size: 14px;
 }
-.home-img{
-    background-repeat: no-repeat;
-    background-size: cover;
+.home-img {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.services .heading span{
-   color: var(--main-color);
+.services .heading span {
+  color: var(--main-color);
 }
-.services .bording span{
-    color: var(--main-color);
- }
- .services .styling span{
-    color: var(--main-color);
- }
- img{
-    max-width: 500px;
-    height: auto;
- }
+.services .bording span {
+  color: var(--main-color);
+}
+.services .styling span {
+  color: var(--main-color);
+}
 
+img {
+  max-width: 500px;
+  max-height: 500px;
+  width: 350px;
+  height: 350px;
+  /* height: auto; */
+}
