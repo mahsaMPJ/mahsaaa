@@ -10,7 +10,7 @@
 }
 :root {
   --text-color: #000000;
-  --main-color: #83b735;
+  --main-color: #051857;
 }
 section {
   padding: 50px 10%;
@@ -90,11 +90,16 @@ header {
 .services .styling span {
   color: var(--main-color);
 }
-
+.row{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
 img {
-  max-width: 500px;
-  max-height: 500px;
-  width: 350px;
-  height: 350px;
+  margin: 0.5rem 1.2rem;
+  max-width: 300px;
+  max-height: 300px;
+  width: 250px;
+  height: 250px;
   /* height: auto; */
 }
